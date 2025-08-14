@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regístrate - Atlantic City</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <script defer src="app.js"></script>
+
+  <body>
+    <header>
+      <div class="logo">ATLANTIC CITY</div>
+      <nav>
+        <ul>
+          <li><a href="paginaPrincipal.html">INICIO</a></li>
+          <li><a href="juegos.html">JUEGOS</a></li>
+          <li>
+            <a class="btn btn-register" href="registro.html">REGÍSTRATE</a>
+          </li>
+          <li><a class="btn btn-login" href="ingresar.html">INGRESAR</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="registro-section">
+        <div class="registro-form">
+          <h1>REGÍSTRATE</h1>
+          <p>Crea una cuenta para disfrutar de los mejores juegos de casino</p>
+          <form>
+            <input type="text" placeholder="Nombre" required />
+            <div class="input-row">
+              <input type="text" placeholder="Apellido" required />
+              <input type="email" placeholder="Email" required />
+            </div>
+            <input type="password" placeholder="Contraseña" required />
+            <button class="btn btn-join" type="submit">REGISTRAR</button>
+          </form>
+          <p class="already">¿Ya tienes una cuenta? <a href="#">Ingresa</a></p>
+        </div>
+        <div class="registro-img">
+          <img src="assets/portada.webp.png" alt="Casino" />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
